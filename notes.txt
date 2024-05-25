@@ -1,1 +1,10 @@
-HI
+HI, ill probably move this to the readme file but this page is dedicated to my notes so i can layout ideas 
+the whole jist of this project it to make a pid controller but it uses machine learning to tune it's self 
+i also wanna make a custom odom so ill be using a hobby motor and an arduino the housing and odom system are still
+to be determined. 
+
+CAD to get the motor spinning:
+
+  because im using a small 5v hobby motor im going to tourqe it up with a small gearbox i desgin in inventor ill try 
+  to put the file up on github if it lets me. I wont account for an odom system rn because i still need to do research on that 
+  but ill have a working system to implent that into. 
