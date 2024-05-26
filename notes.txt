@@ -7,4 +7,8 @@ CAD to get the motor spinning:
 
   because im using a small 5v hobby motor im going to tourqe it up with a small gearbox i desgin in inventor ill try 
   to put the file up on github if it lets me. I wont account for an odom system rn because i still need to do research on that 
-  but ill have a working system to implent that into. 
+  but ill have a working system to implement that into.
+
+odom research:
+
+  
