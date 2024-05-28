@@ -9,6 +9,25 @@ CAD to get the motor spinning:
   to put the file up on github if it lets me. I wont account for an odom system rn because i still need to do research on that 
   but ill have a working system to implement that into.
 
-odom research:
+odom research: 
+  
+  im going to stick to a pulse incremental encoder because i could do an absoulte postition encoder but its less useful because 
+  its difficult have 50 unique and readable binanry strips on a gear. Also if this thing is turning thousands of degrees knowing 
+  the absolute position of the wheel is not particularly usful if i strictly need position and i have a decent sampling rate 
+  deciding if i want to go optical or mechanical (magnetic would be too cumbersome) is a little trickier 
+  the benefits to ***OPTICAL*** PROS. is that i could steal the optical encoder from a vex motor also the limiting factor of how fast i 
+  can go is olny limited by the computers sampling rate. Also there it no wear and tear problem. the CONS are that the three wires on
+  what i assume is the infrared sensor are scary and i dont understand it fully. Also if i have an open air motor there may be some 
+  problems of the sensor catching bad signals from the enviroment. I could close this thing but thats extra work and itll be a pain 
+  to test it. ***MECHANICAL*** PROS its basically just making a switch that gets turned on and off by spinning therefore it will
+  be a lot quicker to figure out how to implement. CONS. it will produce friction because of the brushes and it also may be 
+  difficult to position said brushes. 
+
+  i have pretty thin wire on hand so im going to make a mechanical odom. the plan is too basiclly make a grill looking 
+  structure with a single length of wire. this would be connected to the sensor pin on an arduino. then a brush
+  will be connected to the power pin and drag across this latter. every rung will be a new increment. initially i want at least 
+  50 ticks so each increment is equivenent to about 7.2 degree. A design on the gear to accommidate for this latter will be on the 
+  github labeled as V2_for_odom_spur gear32
+  
 
   
