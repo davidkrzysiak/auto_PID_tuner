@@ -28,6 +28,11 @@ odom research:
   will be connected to the power pin and drag across this latter. every rung will be a new increment. initially i want at least 
   50 ticks so each increment is equivenent to about 7.2 degree. A design on the gear to accommidate for this latter will be on the 
   github labeled as V2_for_odom_spur gear32
+
+  the next step is to make a brush for the gear ladder to offer the least amount of resistance im goin gto use braided wire 
+  to position the wire it would be ideal to install it perpendicular to the ladder in order for the wire to restore itself 
+  in the area between the wires instead of the next rung of wires ill add the updated ipt files of the new housing onto 
+  github when i finish the model.
   
 
   
